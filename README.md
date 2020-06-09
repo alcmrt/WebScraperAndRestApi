@@ -1,6 +1,6 @@
 # Web Scraper ve Rest API
 
-#### [cars.com](https://www.cars.com) üzerinden çekilen araç verilerinin MySQL veritabanında saklanması ve bu verilerin rest api aracalığı ile JSON formatında sunulması için hazırlanmış olan Python uygulaması.
+#### [cars.com](https://www.cars.com) üzerinden çekilen araç verilerinin MySQL veritabanında saklanması ve bu verilerin rest api aracılığı ile JSON formatında sunulması için hazırlanmış olan Python uygulaması.
 
 ---
 ### Kullanılan Kütüphaneler:
