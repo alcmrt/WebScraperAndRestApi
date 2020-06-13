@@ -32,7 +32,7 @@ class Car(Model):
     phone = CharField(max_length=20, null=False)
 
     class Meta:
-        database = mysql_db  # This model uses the "people.db" database.
+        database = mysql_db
 
 
 # create table in the database
