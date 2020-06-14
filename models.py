@@ -14,7 +14,7 @@ exist = conn.cursor().execute("SHOW DATABASES LIKE '{}';".format(s.SCHEMA))
 
 if not exist:
     conn.cursor().execute("CREATE DATABASE {}".format(s.SCHEMA))
-    conn.close()
+conn.close()
 
 # Create a MySQL database connector object for Peewee ORM
 mysql_db = MySQLDatabase(database=s.SCHEMA, user=s.USER, password=s.PASSWORD, host=s.HOST, port=s.PORT)
